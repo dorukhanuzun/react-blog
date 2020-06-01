@@ -11,3 +11,9 @@ exports.about = (req, res) => {
     pageTitle: 'About Me'
   });
 };
+
+exports.thing = (req, res) => {
+  res.render(`${viewPath}/thing`, {
+    pageTitle: 'Thing'
+  });
+};
