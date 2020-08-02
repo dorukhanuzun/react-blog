@@ -9,7 +9,7 @@ function About () {
       </header>
 
       <div>
-        <p>The autobiography of Shaun McKinnon</p>
+        <p>The autobiography of Siamese Cat</p>
       </div>
     </Container>
   );

@@ -9,10 +9,6 @@
     "start": "node app.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gcsmckinnon/comp-2068-s20-blogging-platform.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
