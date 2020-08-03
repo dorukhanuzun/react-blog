@@ -1,7 +1,7 @@
 {
-  "name": "Lesson03-06",
+  "name": "Lesson-03-06",
   "version": "1.0.0",
-  "description": "Dorukhan Uzun",
+  "description": "booya",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,13 @@
     "start": "node app.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dorukhanuzun/COMP2068-20S-Blogging-Platform.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dorukhanuzun/COMP2068-20S-Blogging-Platform/issues"
+    "url": "https://github.com/dorukhanuzun/react-blog/issues"
   },
-  "homepage": "https://github.com/dorukhanuzun/COMP2068-20S-Blogging-Platform#readme",
+  "homepage": "https://github.com/dorukhanuzun/react-blog#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-flash": "^0.1.1",
@@ -28,7 +24,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.19",
+    "mongoose": "^5.9.17",
     "multer": "^1.4.2",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
